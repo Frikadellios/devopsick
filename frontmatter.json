@@ -2,67 +2,11 @@
   "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "blog",
+      "previewPath": "'blog'",
       "pageBundle": false,
-      "previewPath": null,
-      "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Category",
-          "name": "category",
-          "type": "categories",
-          "single": true
-        },
-        {
-          "title": "pubDate",
-          "name": "pubDate",
-          "type": "datetime"
-        },
-        {
-          "title": "heroImage",
-          "name": "heroImage",
-          "type": "image"
-        },
-        {
-          "title": "Authors",
-          "name": "authors",
-          "type": "block",
-          "fieldGroup": [
-            "author"
-          ]
-        }
-      ]
+      "clearEmpty": true,
+      "fields": []
     }
   ],
   "frontMatter.framework.id": "astro",
@@ -70,30 +14,189 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "blog",
-      "path": "[[workspace]]/src/content/blog"
+      "path": "[[workspace]]/src/content/blog",
+      "defaultLocale": "en",
+      "locales": [
+        {
+          "title": "English",
+          "locale": "en",
+          "path": "../en"
+        },
+        {
+          "title": "German",
+          "locale": "de",
+          "path": "../de"
+        },
+        {
+          "title": "Russian",
+          "locale": "ru",
+          "path": "../ru"
+        },
+        {
+          "title": "Ukrainian",
+          "locale": "uk",
+          "path": "../uk"
+        }
+      ]
     },
     {
       "title": "docs",
-      "path": "[[workspace]]/src/content/docs"
+      "path": "[[workspace]]/src/content/docs",
+      "defaultLocale": "en",
+      "locales": [
+        {
+          "title": "English",
+          "locale": "en",
+          "path": "../en"
+        },
+        {
+          "title": "German",
+          "locale": "de",
+          "path": "../de"
+        },
+        {
+          "title": "Russian",
+          "locale": "ru",
+          "path": "../ru"
+        },
+        {
+          "title": "Ukrainian",
+          "locale": "uk",
+          "path": "../uk"
+        }
+      ]
     },
     {
       "title": "partners",
-      "path": "[[workspace]]/src/content/partners"
+      "path": "[[workspace]]/src/content/partners",
+      "defaultLocale": "en",
+      "locales": [
+        {
+          "title": "English",
+          "locale": "en",
+          "path": "../en"
+        },
+        {
+          "title": "German",
+          "locale": "de",
+          "path": "../de"
+        },
+        {
+          "title": "Russian",
+          "locale": "ru",
+          "path": "../ru"
+        },
+        {
+          "title": "Ukrainian",
+          "locale": "uk",
+          "path": "../uk"
+        }
+      ]
     },
     {
       "title": "portfolio",
-      "path": "[[workspace]]/src/content/portfolio"
+      "path": "[[workspace]]/src/content/portfolio",
+      "defaultLocale": "en",
+      "locales": [
+        {
+          "title": "English",
+          "locale": "en",
+          "path": "../en"
+        },
+        {
+          "title": "German",
+          "locale": "de",
+          "path": "../de"
+        },
+        {
+          "title": "Russian",
+          "locale": "ru",
+          "path": "../ru"
+        },
+        {
+          "title": "Ukrainian",
+          "locale": "uk",
+          "path": "../uk"
+        }
+      ]
     },
     {
       "title": "projects",
-      "path": "[[workspace]]/src/content/projects"
+      "path": "[[workspace]]/src/content/projects",
+      "defaultLocale": "en",
+      "locales": [
+        {
+          "title": "English",
+          "locale": "en",
+          "path": "../en"
+        },
+        {
+          "title": "German",
+          "locale": "de",
+          "path": "../de"
+        },
+        {
+          "title": "Russian",
+          "locale": "ru",
+          "path": "../ru"
+        },
+        {
+          "title": "Ukrainian",
+          "locale": "uk",
+          "path": "../uk"
+        }
+      ]
     },
     {
       "title": "services",
-      "path": "[[workspace]]/src/content/services"
+      "path": "[[workspace]]/src/content/services",
+      "defaultLocale": "en",
+      "locales": [
+        {
+          "title": "English",
+          "locale": "en",
+          "path": "../en"
+        },
+        {
+          "title": "German",
+          "locale": "de",
+          "path": "../de"
+        },
+        {
+          "title": "Russian",
+          "locale": "ru",
+          "path": "../ru"
+        },
+        {
+          "title": "Ukrainian",
+          "locale": "uk",
+          "path": "../uk"
+        }
+      ]
     }
   ],
   "frontMatter.taxonomy.fieldGroups": [
+    {
+      "id": "GeneralFields",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "name": "fieldCollection",
+          "type": "fieldCollection",
+          "fieldGroup": "GeneralFields"
+        }
+      ]
+    },
     {
       "id": "author",
       "labelField": "name",
@@ -117,11 +220,14 @@
     {
       "id": "authors",
       "title": "Authors",
-      "file": "[[workspace]]/data/authors.json", // Adapt to your needs
+      "file": "[[workspace]]/data/authors.json",
       "schema": {
         "title": "Author",
         "type": "object",
-        "required": ["name", "url"],
+        "required": [
+          "name",
+          "url"
+        ],
         "properties": {
           "slug": {
             "title": "slug",

@@ -39,6 +39,11 @@ export default defineConfig({
     sitemap({
       entryLimit: 10000,
     }),
-    partytown(),
+    partytown({
+      config: {
+        forward: ['dataLayer.push'],
+        debug: false
+      }
+    })
   ],
 })
