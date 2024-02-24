@@ -1,0 +1,41 @@
+{
+  "name": "devopsick",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "brainshtorm bunx --bunx",
+  "keywords": [],
+  "author": "Hrihorii Ilin <devopsick@pm.me>",
+  "license": "MIT",
+  "repository": "https://github.com/Frikadellios/devopsick",
+  "scripts": {
+    "dev": "bunx --bun astro dev",
+    "start": "bun astro check && bunx --bun astro dev --verbose",
+    "build": "bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
+    "biomes": "bunx @biomejs/biome check --apply ./src ",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.5",
+    "@astrojs/mdx": "^2.1.1",
+    "@astrojs/partytown": "^2.0.4",
+    "@astrojs/react": "^3.0.10",
+    "@astrojs/rss": "^4.0.5",
+    "@astrojs/sitemap": "^3.1.1",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/ts-plugin": "^1.5.3",
+    "@rollup/plugin-yaml": "^4.1.2",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "astro": "^4.4.4",
+    "million": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sharp": "^0.33.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@types/bun": "latest"
+  }
+}
