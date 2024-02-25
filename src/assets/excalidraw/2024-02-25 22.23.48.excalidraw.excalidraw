@@ -1,0 +1,212 @@
+{
+	"type": "excalidraw",
+	"version": 2,
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.23",
+	"elements": [
+		{
+			"type": "text",
+			"version": 304,
+			"versionNonce": 2033654526,
+			"isDeleted": false,
+			"id": "iQVIzviK",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -45.5,
+			"y": 33.67102267384372,
+			"strokeColor": "#000000",
+			"backgroundColor": "#868e96",
+			"width": 90.77992248535156,
+			"height": 25,
+			"seed": 237563938,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1708892748430,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "Bookmark",
+			"rawText": "Bookmark",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Bookmark",
+			"lineHeight": 1.25,
+			"baseline": 18
+		},
+		{
+			"type": "line",
+			"version": 942,
+			"versionNonce": 485809982,
+			"isDeleted": false,
+			"id": "PyrNFT_YDy17N2OvKPELh",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -34.78477225488033,
+			"y": -162.7485543351941,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "#7950f222",
+			"width": 298.372802734375,
+			"height": 283.96363915580446,
+			"seed": 927292926,
+			"groupIds": [
+				"vjUWOJXWvavY2WbyDuVD4"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1708892803940,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": null,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-88.00390625,
+					45.13934293704132
+				],
+				[
+					-114.276611328125,
+					133.92980101446614
+				],
+				[
+					-86.799072265625,
+					192.9494122662663
+				],
+				[
+					-22.1409912109375,
+					211.75054618807195
+				],
+				[
+					5.7730712890625,
+					266.766867839654
+				],
+				[
+					65.742431640625,
+					283.96363915580446
+				],
+				[
+					123.11865234375,
+					214.48054681763108
+				],
+				[
+					184.09619140625,
+					126.89504134954332
+				],
+				[
+					131.0150146484375,
+					78.82176801876346
+				],
+				[
+					100.625732421875,
+					31.643466654718036
+				],
+				[
+					51.684326171875,
+					2.3940854743789863
+				],
+				[
+					0,
+					0
+				]
+			]
+		},
+		{
+			"type": "text",
+			"version": 82,
+			"versionNonce": 307599906,
+			"isDeleted": false,
+			"id": "hgCikLz9",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -84.39841131841732,
+			"y": 121.55182591805594,
+			"strokeColor": "#000000",
+			"backgroundColor": "#fa5252",
+			"width": 307.763916015625,
+			"height": 57.6,
+			"seed": 1785142818,
+			"groupIds": [
+				"vjUWOJXWvavY2WbyDuVD4"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1708892810830,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 1,
+			"text": "Area of Interest",
+			"rawText": "Area of Interest",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Area of Interest",
+			"lineHeight": 1.6,
+			"baseline": 38
+		}
+	],
+	"appState": {
+		"theme": "dark",
+		"viewBackgroundColor": "#ffffff",
+		"currentItemStrokeColor": "#1971c2",
+		"currentItemBackgroundColor": "transparent",
+		"currentItemFillStyle": "solid",
+		"currentItemStrokeWidth": 2,
+		"currentItemStrokeStyle": "solid",
+		"currentItemRoughness": 1,
+		"currentItemOpacity": 100,
+		"currentItemFontFamily": 1,
+		"currentItemFontSize": 36,
+		"currentItemTextAlign": "left",
+		"currentItemStartArrowhead": null,
+		"currentItemEndArrowhead": "arrow",
+		"scrollX": 477,
+		"scrollY": 390.90625,
+		"zoom": {
+			"value": 1
+		},
+		"currentItemRoundness": "round",
+		"gridSize": null,
+		"gridColor": {
+			"Bold": "#C9C9C9FF",
+			"Regular": "#EDEDEDFF"
+		},
+		"currentStrokeOptions": null,
+		"previousGridSize": null,
+		"frameRendering": {
+			"enabled": true,
+			"clip": true,
+			"name": true,
+			"outline": true
+		}
+	},
+	"prevTextMode": "parsed",
+	"files": {}
+}
