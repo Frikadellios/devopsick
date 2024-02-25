@@ -14,7 +14,7 @@ export default defineConfig({
       skip: ["useBadHook", /badVariable/g],
     }, }), yaml()],
   },
-  site: 'https://example.com',
+  site: 'https://devopsick.vercel.app',
   markdown: {
     remarkPlugins: [],
     drafts: true,

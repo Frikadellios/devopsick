@@ -93,12 +93,30 @@
           "name": "lang",
           "type": "choice",
           "choices": [
-            { "id": "en", "title": "English" },
-            { "id": "uk", "title": "Ukrainian" },
-            { "id": "ru", "title": "Russian" },
-            { "id": "es", "title": "Spain" },
-            { "id": "de", "title": "German" },
-            { "id": "fr", "title": "France" }
+            {
+              "id": "en",
+              "title": "English"
+            },
+            {
+              "id": "uk",
+              "title": "Ukrainian"
+            },
+            {
+              "id": "ru",
+              "title": "Russian"
+            },
+            {
+              "id": "es",
+              "title": "Spain"
+            },
+            {
+              "id": "de",
+              "title": "German"
+            },
+            {
+              "id": "fr",
+              "title": "France"
+            }
           ]
         },
         {
@@ -546,5 +564,6 @@
         }
       }
     }
-  ]
+  ],
+  "frontMatter.dashboard.openOnStart": false
 }
