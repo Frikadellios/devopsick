@@ -28,7 +28,6 @@
     "url": "git+https://github.com/Frikadellios/devopsick.git"
   },
   "scripts": {
-    "preinstall": "npm install bun -g && bun install",
     "dev": "bunx --bun astro dev --watch",
     "start": "bun astro check && bunx --bun astro dev --verbose",
     "build": "bunx --bun astro build",
