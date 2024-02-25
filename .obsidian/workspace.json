@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "cf683ee932a40777",
-            "type": "leaf",
-            "state": {
-              "type": "vscode-editor",
-              "state": {
-                "file": "src/components/HeaderLink.astro"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/components/HeaderLink.astro",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/components/HeaderLink.astro",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/components/HeaderLink.astro"
+                "file": "README.md"
               }
             }
           },
@@ -196,26 +185,27 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "cf683ee932a40777",
+  "active": "13d52958eb482e30",
   "lastOpenFiles": [
+    "src/templates/Blog Template.md",
+    "README.md",
+    "src/templates",
+    "src/env.d.ts",
+    "src/components/templates",
+    "public/favicon.svg",
+    "src/content/blog/en/2024-02-25-test-post.md",
+    "src/components/HeaderLink.astro",
     "src/content/blog/de",
     "src/content/blog/uk",
     "src/content/blog/ru",
-    "Untitled",
     "src/components/Header.astro",
     "src/components/BaseHead.astro",
     "src/assets/excalidraw/2024-02-25 21.17.27.excalidraw.md",
     "src/assets/excalidraw/2024-02-25 21.17.27.excalidraw.excalidraw",
-    "README.md",
     "src/assets/canvas/Untitled.canvas",
     "src/assets/excalidraw/2024-02-25 20.49.45.excalidraw.md",
-    "src/assets/excalidraw/2024-02-25 20.49.45.excalidraw.excalidraw",
-    "src/assets/excalidraw/2024-02-25 20.57.41.excalidraw.excalidraw",
     "src/assets/excalidraw/2024-02-25 20.57.41.excalidraw.md",
     "src/assets/excalidraw/Drawing 2024-02-25 20.10.17.excalidraw.md",
-    "src/assets/excalidraw/Drawing 2024-02-25 20.10.17.excalidraw.excalidraw",
-    "src/assets/canvas",
-    "src/assets/Untitled 1.canvas",
-    "src/content/blog/en/2024-02-25-test-post.md"
+    "src/assets/Untitled 1.canvas"
   ]
 }
