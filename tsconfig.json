@@ -34,6 +34,5 @@
         "name": "@astrojs/ts-plugin"
       }
     ]
-  },
-  "include": ["src/**/*"]
+  }
 }
