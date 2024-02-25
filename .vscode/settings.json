@@ -30,5 +30,6 @@
       "other": "off"
     },
     "editor.minimap.enabled": false
-  }
+  },
+  "astro.format.indentFrontmatter": false
 }
