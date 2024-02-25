@@ -2,13 +2,33 @@
   "name": "devopsick",
   "type": "module",
   "version": "1.0.1",
-  "description": "brainshtorm bunx --bunx",
-  "keywords": [],
+  "description": "Astro Starter Template with Modern Stack of Open Source packages for local or/with GitHub codespace development",
+  "commandDescription": "```sh bunx create-astro@latest -- --template Frikadellios/devopsick ```",
+  "keywords": [
+    "bun.sh",
+    "frontmatter.codes",
+    "astro.build",
+    "react.dev",
+    "obsidian.md",
+    "biomejs.dev",
+    "markdown",
+    "mdxjs.dev",
+    "obsidian.md",
+    "gitlocalize.com"
+  ],
   "author": "Hrihorii Ilin <devopsick@pm.me>",
   "license": "MIT",
-  "repository": "https://github.com/Frikadellios/devopsick",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/Frikadellios/devopsick/issues"
+  },
+  "homepage": "https://github.com/Frikadellios/devopsick#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frikadellios/devopsick.git"
+  },
   "scripts": {
-    "dev": "bunx --bun astro dev",
+    "dev": "bunx --bun astro dev --watch",
     "start": "bun astro check && bunx --bun astro dev --verbose",
     "build": "bunx --bun astro build",
     "preview": "bunx --bun astro preview",
