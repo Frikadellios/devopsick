@@ -30,5 +30,12 @@
   "vscode-editor",
   "open-vscode",
   "api-request",
-  "frontmatter-generator"
+  "frontmatter-generator",
+  "oz-image-plugin",
+  "obsidian-enhancing-mindmap",
+  "obsidian-image-toolkit",
+  "mdx",
+  "obsidian-markdown-file-suffix",
+  "mdx-as-md-obsidian",
+  "edit-mdx"
 ]
