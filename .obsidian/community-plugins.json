@@ -28,5 +28,7 @@
   "nldates-obsidian",
   "remotely-save",
   "vscode-editor",
-  "open-vscode"
+  "open-vscode",
+  "api-request",
+  "frontmatter-generator"
 ]

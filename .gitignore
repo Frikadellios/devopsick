@@ -7,6 +7,8 @@ build
 
 # generated types
 .astro/
+.trash/
+
 
 # dependencies
 node_modules/

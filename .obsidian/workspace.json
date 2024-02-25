@@ -11,26 +11,26 @@
             "id": "13d52958eb482e30",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "src/assets/canvas/Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "ce806d1df9fe2132",
+            "id": "cf683ee932a40777",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "vscode-editor",
+              "state": {
+                "file": "src/components/HeaderLink.astro"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/assets/canvas/Untitled.canvas",
+                "file": "src/components/HeaderLink.astro",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/assets/canvas/Untitled.canvas",
+                "file": "src/components/HeaderLink.astro",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/assets/canvas/Untitled.canvas"
+                "file": "src/components/HeaderLink.astro"
               }
             }
           },
@@ -161,7 +161,7 @@
             }
           },
           {
-            "id": "9293c1d413dcf825",
+            "id": "40bc7b1962bdbe50",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -196,21 +196,26 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "13d52958eb482e30",
+  "active": "cf683ee932a40777",
   "lastOpenFiles": [
+    "src/content/blog/de",
+    "src/content/blog/uk",
+    "src/content/blog/ru",
+    "Untitled",
+    "src/components/Header.astro",
+    "src/components/BaseHead.astro",
+    "src/assets/excalidraw/2024-02-25 21.17.27.excalidraw.md",
+    "src/assets/excalidraw/2024-02-25 21.17.27.excalidraw.excalidraw",
+    "README.md",
+    "src/assets/canvas/Untitled.canvas",
     "src/assets/excalidraw/2024-02-25 20.49.45.excalidraw.md",
     "src/assets/excalidraw/2024-02-25 20.49.45.excalidraw.excalidraw",
     "src/assets/excalidraw/2024-02-25 20.57.41.excalidraw.excalidraw",
     "src/assets/excalidraw/2024-02-25 20.57.41.excalidraw.md",
     "src/assets/excalidraw/Drawing 2024-02-25 20.10.17.excalidraw.md",
     "src/assets/excalidraw/Drawing 2024-02-25 20.10.17.excalidraw.excalidraw",
-    "src/assets/canvas/Untitled.canvas",
     "src/assets/canvas",
     "src/assets/Untitled 1.canvas",
-    "README.md",
-    "src/styles/global.css",
-    "src/content/blog/en/2024-02-25-test-post.md",
-    "src/content/config.ts",
-    "src/assets/excalidraw"
+    "src/content/blog/en/2024-02-25-test-post.md"
   ]
 }
