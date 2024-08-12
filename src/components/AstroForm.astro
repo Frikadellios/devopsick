@@ -1,0 +1,63 @@
+---
+export const prerender = false
+
+type formData = {
+  username: string
+  email: string
+  message: string
+  firstName: string
+  lastName: string
+  comment: string
+  services: string
+  phone: number
+  time: Date
+}
+
+if (Astro.request.method === 'POST') {
+  try {
+    const formData = await Astro.request.formData()
+    const response = await fetch(`${Astro.url}/api/sendEmail.json`, {
+      method: 'POST',
+      body: formData
+    })
+
+    const data: formData = await response.json()
+
+    if (response.status === 200) {
+      console.log(data.message)
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error(`Error: ${error.message}`)
+    }
+  }
+}
+---
+
+<form method="POST">
+	<label>
+		Name     <input type="text" id="username" name="username" required />
+	</label>
+	<label>
+		Email     <input type="email" id="email" name="email" required />
+	</label>
+	<label>
+		Date     <input type="date" id="time" name="time" required />
+	</label>
+	<label>
+		firstName     <input type="text" id="first-name" name="firstName" required />
+	</label>
+	<label>
+		lastName     <input type="text" id="last-name" name="lastName" required />
+	</label>
+	<label>
+		Comment     <textarea id="comment" name="comment" required></textarea>
+	</label>
+	<label>
+		Service     <input type="text" id="services" name="services" required />
+	</label>
+	<label>
+		Message     <textarea id="message" name="message" required></textarea>
+	</label>
+	<button>Send</button>
+</form>
